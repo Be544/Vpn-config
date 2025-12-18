@@ -1,0 +1,11 @@
+{
+  "status": "on",
+  "message": "Servidor ativo",
+  "servers": [
+    {
+      "host": "example.com",
+      "port": 443,
+      "ssl": true
+    }
+  ]
+}
