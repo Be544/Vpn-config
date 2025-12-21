@@ -3,7 +3,7 @@
   "message": "Servidor ativo",
   "servers": [
     {
-      "host": "example.com",
+      "host": "signup.ao",
       "port": 443,
       "ssl": true
     }
