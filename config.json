@@ -1,21 +1,16 @@
 {
-  "enabled": true,
-  "status": "Online",
-  "message": "FireTun conectada",
   "servers": [
     {
-      "name": "FireTun EDU",
-      "host": "seu.host.educacional",
+      "name": "Servidor Angola",
+      "host": "example.com",
       "port": 443,
-      "ssl": true,
-      "sni": "seu.host.educacional"
+      "ssl": true
     },
     {
-      "name": "FireTun Backup",
-      "host": "backup.educacional",
-      "port": 443,
-      "ssl": true,
-      "sni": "backup.educacional"
+      "name": "Servidor Europa",
+      "host": "example.org",
+      "port": 80,
+      "ssl": false
     }
   ]
 }
