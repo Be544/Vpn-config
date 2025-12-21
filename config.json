@@ -1,11 +1,21 @@
 {
-  "status": "on",
-  "message": "Servidor ativo",
+  "enabled": true,
+  "status": "Online",
+  "message": "FireTun conectada",
   "servers": [
     {
-      "host": "signup.ao",
+      "name": "FireTun EDU",
+      "host": "seu.host.educacional",
       "port": 443,
-      "ssl": true
+      "ssl": true,
+      "sni": "seu.host.educacional"
+    },
+    {
+      "name": "FireTun Backup",
+      "host": "backup.educacional",
+      "port": 443,
+      "ssl": true,
+      "sni": "backup.educacional"
     }
   ]
 }
